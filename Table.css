@@ -1,0 +1,22 @@
+
+table, th, td{
+    border: 1px solid black;
+    
+}
+.night{
+    background-color: aqua;
+}
+.day {
+    background-color:chocolate;
+}
+h1 {
+    padding-bottom: 5px;
+}
+
+td{
+padding: 5px;
+}
+th{
+background-color: black;
+color: white;
+}
