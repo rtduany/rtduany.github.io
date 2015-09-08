@@ -1,0 +1,14 @@
+table, th {
+    border: 1px solid black;
+}
+#menu {
+    margin-top: 30px;
+    background-color: bisque;
+}
+#last_div {
+    background-color: chocolate;
+}
+footer {
+    display: block;
+    margin-bottom: 30px;
+}
