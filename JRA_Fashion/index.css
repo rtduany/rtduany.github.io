@@ -8,7 +8,7 @@ table, th {
 #last_div {
     background-color: chocolate;
 }
-footer {
-    display: block;
-    margin-bottom: 30px;
+#footer {
+    background-color: green;
+    text-align: center;
 }
