@@ -1,11 +1,15 @@
-#container {
-	margin: 20px 80px 20px 80px;
-}
-#summary {
-	background-image: url(http://7-themes.com/data_images/out/7/6790876-free-background.jpg);
-	background-repeat: no-repeat;
-
-}
 h1 {
 	color: red;
+}
+#container {
+	margin: 20px 80px 20px 80px;
+	background-image: url(http://7-themes.com/data_images/out/7/6790876-free-background.jpg);
+	background-repeat: no-repeat;
+}
+#summary {
+
+
+}
+#education {
+
 }
