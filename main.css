@@ -1,9 +1,9 @@
-h1 {
-	color:antiquewhite;
+#name {
+	text-emphasis-color:coral;
 	text-align: center;
 }
 body {
-	background-image: url(http://mnprogressiveproject.com/wp-content/uploads/2013/10/Aerial_photo_of_downtown_Minneapolis.jpg);
+	/*background-image: url(http://mnprogressiveproject.com/wp-content/uploads/2013/10/Aerial_photo_of_downtown_Minneapolis.jpg); */
 }
 #container {
 	margin: 20px 80px 20px 80px;
