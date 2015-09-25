@@ -6,13 +6,17 @@
 #name {
 	text-align: center;
 }
-#am {
-
-}
 #rtd {
 	color:red;
 	position: absolute;
 	margin-top: -360px;
+	font-size: 30px;
+	text-align: center;
+}
+#engineer {
+	color:red;
+	position: absolute;
+	margin-top: -330px;
 	font-size: 30px;
 	text-align: center;
 }
