@@ -3,23 +3,6 @@
 	display: inline-block;
 }
 
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 5px;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-a {
-    display:inline;
-    width: 60px;
-    background-color: #dddddd;
-}
-
 #name {
 	text-align: center;
 }
