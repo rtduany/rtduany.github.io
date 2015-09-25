@@ -26,10 +26,6 @@ ul {
 	position:sticky;
 	display: inline-block;
 }
-
-#name {
-	text-align: center;
-}
 #software {
 	color:red;
 	position: absolute;
