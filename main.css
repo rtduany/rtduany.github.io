@@ -19,21 +19,19 @@ ul {
 	padding: 0;
 }
 #container{
-	display: flex;
 	align-items: center;
 	text-align: center;
 }
-
-.summary {
-	color: chocolate;
-
-}
-#education {
-	color: brown
-}
-#footer {
-	text-align: center;
-	table-layout: auto;
-	font-family: viga;
+#container1{
+	background-image: url(http://powerpictures.crystalgraphics.com/photo/abstract_computer_keyboard_cg4p36734c_th.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:200px;;
+	width:1270px;
+	display: block;
+	margin-left:0px;
+	margin-right:0px;
+	color: white;
+	padding: 40px;
 }
 
