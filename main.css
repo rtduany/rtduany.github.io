@@ -26,7 +26,7 @@ ul {
 	background-image: url(http://powerpictures.crystalgraphics.com/photo/abstract_computer_keyboard_cg4p36734c_th.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height:200px;;
+	height:300px;;
 	width:1270px;
 	display: block;
 	margin-left:0px;
@@ -35,3 +35,14 @@ ul {
 	padding: 40px;
 }
 
+#container2{
+	background-image:url(assets/c_image.jpg)
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:300px;;
+	width:1270px;
+	display: block;
+	margin-left:0px;
+	margin-right:0px;
+	color: white;
+}
