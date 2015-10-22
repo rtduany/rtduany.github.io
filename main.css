@@ -18,33 +18,12 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-
-#text {
-	color: coral;
-}
-.item {
-	position:sticky;
-	display: inline-block;
-}
-#software {
-	color:red;
-	position: absolute;
-	margin-top: -360px;
-
-	font-size: 30px;
+#container{
+	display: flex;
+	align-items: center;
 	text-align: center;
 }
-#rtd {
-	color:red;
-	position: absolute;
-	margin-top: -390px;
-	margin-left:300px;
-	font-size: 30px;
-	text-align: center;
-}
-#container {
-	margin: 20px 80px 20px 80px;
-}
+
 .summary {
 	color: chocolate;
 
@@ -57,9 +36,4 @@ ul {
 	table-layout: auto;
 	font-family: viga;
 }
-<!-- Center the image -->
-<style scoped>
-.item img{
-    margin: 0 auto;
-}
-</style>
+
