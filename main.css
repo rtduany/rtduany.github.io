@@ -1,3 +1,4 @@
+
 nav{
     border:1px solid #ccc;
     border-width:1px 0;
@@ -18,31 +19,55 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-#container{
+#container1{
+	display: flex;
 	align-items: center;
 	text-align: center;
 }
-#container1{
+#welcome{
 	background-image: url(http://powerpictures.crystalgraphics.com/photo/abstract_computer_keyboard_cg4p36734c_th.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height:300px;;
-	width:1270px;
 	display: block;
-	margin-left:0px;
-	margin-right:0px;
+	margin-left:auto;
+	margin-right:auto;
 	color: white;
-	padding: 40px;
+	height: 400px;
 }
 
 #container2{
-	background-image:url(assets/c_image.jpg)
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+#education{
+	background-image:url(assets/c_image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height:300px;;
-	width:1270px;
+	height:400px;;
 	display: block;
-	margin-left:0px;
-	margin-right:0px;
+	margin-left:auto;
+	margin-right:auto;
+	color: white;
+}
+
+#container4{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+#port_heading{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	color: white;
+}
+#gnome{
+	background-image:url(assets/c_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
 	color: white;
 }
