@@ -53,6 +53,9 @@ ul {
 	font-family: georgia, sans-serif;
 	font-size: 15px;
 }
+#work{
+	margin-left: 20px;
+}
 #container3{
 	display: flex;
 	align-items: center;
