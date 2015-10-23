@@ -1,11 +1,11 @@
 #container{
-	background-color:aliceblue;
-	background-image:url(assets/Parallax1.jpg);
+	background-image:url(assets/Htc-Mobilephone-Background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	width: 1300px;
 }
-#white_text{
+.white_text{
 	color: white;
 }
 ul {
@@ -73,9 +73,6 @@ ul {
 	text-align: center;
 }
 #gnome{
-	/*background-image:url(assets/big_img.jpg);
-	background-repeat: no-repeat;
-	background-size: cover; */
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
@@ -83,9 +80,6 @@ ul {
 	height: 200px;
 }
 #delani{
-	background-image:url(assets/c_image.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
@@ -93,10 +87,20 @@ ul {
 	height: 200px;
 }
 
-
 body, html {
   height : 100%;
 
   font-family : sans-serif;
 }
 
+#container6{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+#contact_heading{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	height: 200px;
+}
