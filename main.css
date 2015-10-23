@@ -7,6 +7,7 @@
 }
 .white_text{
 	color: white;
+	font-family: sans-serif, "times new roman";
 }
 ul {
 	list-style-type: none;
@@ -16,17 +17,19 @@ ul {
 #container1{
 	display: flex;
 	align-items: center;
-	text-align: center;
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 250px;
 }
 #welcome{
-	background-image: url(http://powerpictures.crystalgraphics.com/photo/abstract_computer_keyboard_cg4p36734c_th.jpg);
+	/*background-image: url(http://powerpictures.crystalgraphics.com/photo/abstract_computer_keyboard_cg4p36734c_th.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed; */
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
-	color: white;
+	color:magenta;
 	height: 400px;
 }
 
@@ -76,7 +79,6 @@ ul {
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
-
 	height: 200px;
 }
 #delani{
@@ -93,14 +95,24 @@ body, html {
   font-family : sans-serif;
 }
 
-#container6{
-	display: flex;
-	align-items: center;
-	text-align: center;
-}
-#contact_heading{
+.centered_heading{
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
-	height: 200px;
+	height: 100px;
+}
+#centered{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#contact{
+	background-image:url(assets/Parallax1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
