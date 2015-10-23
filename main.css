@@ -5,8 +5,8 @@
 	background-attachment: fixed;
 	width: 1300px;
 }
-.white_text{
-	color: white;
+.text_color{
+	color: magenta;
 	font-family: sans-serif, "times new roman";
 }
 ul {
@@ -44,7 +44,7 @@ ul {
 	margin-right:auto;
 }
 #education{
-	background-image:url(assets/c_image.jpg);
+	background-image:url(assets/mobile2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -71,7 +71,6 @@ ul {
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
-	color: white;
 }
 #container5{
 	display: flex;
@@ -110,11 +109,13 @@ body, html {
 	text-align: center;
 	margin-top: 30px;
 }
-#contact{
-	background-image:url(assets/mobile2.jpg);
+#container6{
+	background-image:url(assets/c_image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+}
+#contact{
 	display: flex;
 	align-items: center;
 	text-align: center;
