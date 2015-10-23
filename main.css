@@ -1,4 +1,6 @@
-
+#container{
+	background-color:aliceblue;
+}
 nav{
     border:1px solid #ccc;
     border-width:1px 0;
@@ -40,6 +42,11 @@ ul {
 	align-items: center;
 	text-align: center;
 }
+#education_heading{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
 #education{
 	background-image:url(assets/c_image.jpg);
 	background-repeat: no-repeat;
@@ -50,7 +57,11 @@ ul {
 	margin-right:auto;
 	color: white;
 }
-
+#container3{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
 #container4{
 	display: flex;
 	align-items: center;
@@ -60,7 +71,11 @@ ul {
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
-	color: white;
+}
+#container5{
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
 #gnome{
 	background-image:url(assets/c_image.jpg);
