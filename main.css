@@ -1,20 +1,12 @@
 #container{
 	background-color:aliceblue;
+	background-image:url(assets/Parallax1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
-nav{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
-nav li{
-    display:inline;
-}
-nav a{
-    display:inline-block;
-    padding:10px;
+#white_text{
+	color: white;
 }
 ul {
 	list-style-type: none;
@@ -30,6 +22,7 @@ ul {
 	background-image: url(http://powerpictures.crystalgraphics.com/photo/abstract_computer_keyboard_cg4p36734c_th.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
@@ -51,6 +44,7 @@ ul {
 	background-image:url(assets/c_image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	height:400px;;
 	display: block;
 	margin-left:auto;
@@ -71,6 +65,7 @@ ul {
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
+	color: white;
 }
 #container5{
 	display: flex;
@@ -78,9 +73,9 @@ ul {
 	text-align: center;
 }
 #gnome{
-	background-image:url(assets/big_img.jpg);
+	/*background-image:url(assets/big_img.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
@@ -97,3 +92,11 @@ ul {
 	color: white;
 	height: 200px;
 }
+
+
+body, html {
+  height : 100%;
+
+  font-family : sans-serif;
+}
+
