@@ -28,8 +28,10 @@ ul {
 	margin-right:auto;
 	height: 400px;
 }
-
 #container2{
+	background-origin: content-box;
+	background-color: lightblue;
+	z-index: 10;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -55,6 +57,8 @@ ul {
 }
 #work{
 	margin-left: 20px;
+	height: 200px;
+	margin-top: 30px;
 }
 #container3{
 	display: flex;
@@ -65,11 +69,6 @@ ul {
 	display: flex;
 	align-items: center;
 	text-align: center;
-}
-#port_heading{
-	display: block;
-	margin-left:auto;
-	margin-right:auto;
 }
 #container5{
 	display: flex;
@@ -92,7 +91,6 @@ ul {
 
 body, html {
   height : 100%;
-
   font-family : sans-serif, "times new roman";
 }
 
@@ -100,7 +98,6 @@ body, html {
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
-	height: 100px;
 }
 #centered{
 	display: flex;
