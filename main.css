@@ -29,18 +29,11 @@ ul {
 	height: 400px;
 }
 #container2{
-	background-origin: content-box;
-	background-color: lightblue;
-	z-index: 10;
 	display: flex;
 	align-items: center;
 	text-align: center;
 }
-#education_heading{
-	display: block;
-	margin-left:auto;
-	margin-right:auto;
-}
+
 #education{
 	background-image:url(assets/mobile2.jpg);
 	background-repeat: no-repeat;
@@ -115,4 +108,14 @@ body, html {
 	display: flex;
 	align-items: center;
 	text-align: center;
+}
+#footer{
+
+}
+#footer{
+	background-color: black;
+	color: gainsboro;
+	text-align: right;
+	padding-bottom: 20px;
+	height: 100px;
 }
