@@ -103,19 +103,24 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 300px;
 }
 #contact{
 	display: flex;
 	align-items: center;
 	text-align: center;
 }
-#footer{
 
-}
 #footer{
 	background-color: black;
-	color: gainsboro;
+	display: flex;
+	align-items: center;
 	text-align: right;
-	padding-bottom: 20px;
+	color: gainsboro;
 	height: 100px;
+}
+#created_by{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
